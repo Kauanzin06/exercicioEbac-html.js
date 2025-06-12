@@ -10,13 +10,18 @@
     <div class="container">
         <h1>Formulario <b>B > A</b></h1>
         <h2>Digite dois valores abaixo, (<b>B</b>) deverá ser maior que o (<b>A</b>)</h2>
-        <form>
+        <form id="form">
             <label for="valorA">Digite o valor <b>A:</b> </label>
             <input type="number" id="valorA" placeholder="Campo A" required>
             <label for="valorB">Digite o valor <b>B:</b> </label>
             <input type="number" id="valorB" placeholder="Campo B" required>
+            <p class="errorMessage">O valor <b>A</b> e maior que <b>B</b> REFAÇA!</p>
             <button type="submit">VERIFICAR</button>
+            
         </form>
+        <p class="successMessage"></p>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
