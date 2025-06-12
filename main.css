@@ -60,3 +60,22 @@ label {
     font-weight: bold;
     font-style:oblique;
 }
+
+.errorMessage{
+    color: #fff;
+    font-size: 16px;
+    padding: 4px;
+    background-color: red;
+    display: none;
+}
+
+.successMessage{
+    color: #fff;
+    font-size: 16px;
+    padding: 8px;
+    background-color: green;
+    margin-top: 14px;
+    width: 450px;
+    display: none;
+}
+
